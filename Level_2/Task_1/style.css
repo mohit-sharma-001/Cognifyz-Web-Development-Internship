@@ -1,0 +1,278 @@
+/* ==========================
+   Google Font & Global Styles
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+    color:#ffffff;
+    overflow-x:hidden;
+}
+
+/* ==========================
+   Navbar
+========================== */
+
+.navbar{
+    background:rgba(0,0,0,.15);
+    backdrop-filter:blur(12px);
+    box-shadow:0 4px 15px rgba(0,0,0,.2);
+}
+
+.navbar-brand{
+    font-size:1.6rem;
+    font-weight:700;
+    letter-spacing:1px;
+}
+
+.nav-link{
+    color:#fff !important;
+    margin-left:15px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#ffd43b !important;
+}
+
+/* ==========================
+   Hero Section
+========================== */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:120px 20px 80px;
+}
+
+.hero h1{
+    font-size:3.5rem;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    max-width:650px;
+    margin:auto;
+    opacity:.9;
+}
+
+.hero .btn{
+    margin-top:30px;
+    padding:12px 30px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.hero .btn:hover{
+    transform:translateY(-4px);
+}
+
+/* ==========================
+   Cards Section
+========================== */
+
+.tech-card{
+    background:rgba(255,255,255,.12);
+    backdrop-filter:blur(15px);
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    color:#fff;
+    transition:.35s;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.tech-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 18px 35px rgba(0,0,0,.35);
+}
+
+/* ==========================
+   Icon Box
+========================== */
+
+.icon-box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:150px;
+    font-size:80px;
+    transition:.3s;
+}
+
+/* Brand Colors */
+
+.html-icon{
+    color:#E34F26;
+}
+
+.css-icon{
+    color:#1572B6;
+}
+
+.js-icon{
+    color:#F7DF1E;
+}
+
+.bootstrap-icon{
+    color:#7952B3;
+}
+
+.github-icon{
+    color:#ffffff;
+}
+
+.responsive-icon{
+    color:#22C55E;
+}
+
+.tech-card:hover .icon-box{
+    transform:scale(1.15) rotate(5deg);
+}
+
+/* ==========================
+   Card Content
+========================== */
+
+.card-body{
+    text-align:center;
+    padding:25px;
+}
+
+.card-body h4{
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.card-body p{
+    color:#f3f3f3;
+    line-height:1.6;
+    min-height:80px;
+}
+
+.card-body .btn{
+    border-radius:30px;
+    padding:10px 25px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.card-body .btn:hover{
+    transform:translateY(-3px);
+}
+
+/* ==========================
+   About Section
+========================== */
+
+#about{
+    padding:80px 20px;
+}
+
+#about h2{
+    font-size:2.3rem;
+    font-weight:700;
+}
+
+#about p{
+    max-width:800px;
+    margin:20px auto 0;
+    line-height:1.8;
+    color:#f5f5f5;
+}
+
+/* ==========================
+   Footer
+========================== */
+
+footer{
+    background:rgba(0,0,0,.2);
+    backdrop-filter:blur(10px);
+    padding:20px;
+    text-align:center;
+    margin-top:50px;
+}
+
+footer p{
+    margin:0;
+    color:#ffffff;
+}
+
+/* ==========================
+   Responsive Design
+========================== */
+
+@media(max-width:992px){
+
+.hero h1{
+    font-size:3rem;
+}
+
+}
+
+@media(max-width:768px){
+
+.hero{
+    padding-top:130px;
+}
+
+.hero h1{
+    font-size:2.4rem;
+}
+
+.hero p{
+    font-size:1rem;
+}
+
+.icon-box{
+    font-size:70px;
+    height:130px;
+}
+
+.nav-link{
+    margin-left:0;
+    text-align:center;
+}
+
+}
+
+@media(max-width:576px){
+
+.hero h1{
+    font-size:2rem;
+}
+
+.hero p{
+    font-size:.95rem;
+}
+
+.icon-box{
+    font-size:60px;
+    height:110px;
+}
+
+.card-body p{
+    min-height:auto;
+}
+
+.navbar-brand{
+    font-size:1.3rem;
+}
+
+}
