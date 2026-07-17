@@ -43,11 +43,6 @@ Task-2
 
 ---
 
-## 📷 Preview
-
-(Add Screenshot Here)
-
----
 
 ## 📱 Responsive Features
 
