@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Responsive Image Gallery</title>
+
+    <!-- Google Font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <h2 class="logo">Image Gallery</h2>
+
+            <ul class="nav-links">
+
+                <li><a href="#">Home</a></li>
+
+                <li><a href="#gallery">Gallery</a></li>
+
+                <li><a href="#slideshow">Slideshow</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>Modern Image Gallery</h1>
+
+            <p>
+
+                Click any thumbnail to preview it in a larger view.
+                Enjoy an automatic slideshow with smooth transitions.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SLIDESHOW ================= -->
+
+    <section id="slideshow">
+
+        <h2>Featured Images</h2>
+
+        <div class="slider">
+
+            <button id="prev" class="slide-btn">
+
+                <i class="bi bi-chevron-left"></i>
+
+            </button>
+
+            <img id="slideImage"
+                src="images/img1.jpg"
+                alt="Slideshow Image">
+
+            <button id="next" class="slide-btn">
+
+                <i class="bi bi-chevron-right"></i>
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+
+    <section id="gallery">
+
+        <h2>Gallery</h2>
+
+        <div class="gallery-grid">
+
+            <img src="images/img1.jpg" alt="Gallery Image"
+                onclick="changeImage(this.src)">
+
+            <img src="images/img2.jpg" alt="Gallery Image"
+                onclick="changeImage(this.src)">
+
+            <img src="images/img3.jpg" alt="Gallery Image"
+                onclick="changeImage(this.src)">
+
+            <img src="images/img4.jpg" alt="Gallery Image"
+                onclick="changeImage(this.src)">
+
+            <img src="images/img5.jpg" alt="Gallery Image"
+                onclick="changeImage(this.src)">
+
+            <img src="images/img6.jpg" alt="Gallery Image"
+                onclick="changeImage(this.src)">
+                            <img src="images/img7.jpg" alt="Gallery Image"
+                onclick="changeImage(this.src)">
+
+            <img src="images/img8.jpg" alt="Gallery Image"
+                onclick="changeImage(this.src)">
+
+            <img src="images/img9.jpg" alt="Gallery Image"
+                onclick="changeImage(this.src)">
+
+        </div>
+
+    </section>
+
+    <!-- ================= IMAGE PREVIEW ================= -->
+
+    <section class="preview-section">
+
+        <h2>Selected Image</h2>
+
+        <div class="preview-box">
+
+            <img id="previewImage"
+                src="images/img1.jpg"
+                alt="Preview Image">
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <h3>Image Gallery Project</h3>
+
+            <p>
+
+                Developed as part of the Cognifyz Web Development Internship.
+
+            </p>
+
+            <p>
+
+                © 2026 Mohit Sharma | All Rights Reserved
+
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- ================= JavaScript ================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
