@@ -1,40 +1,41 @@
-# Level 1 - Task 1
+# Level 1 - Task 2
 
 ## 📌 Objective
 
-Create a simple webpage using HTML and CSS that includes:
-
-- Navigation Menu
-- Heading
-- Paragraph
-- Image
-- Contact Form
+Build interactive JavaScript components.
 
 ## 🚀 Features
 
-- Responsive Navigation Bar
-- Hero Section
-- About Section
-- Contact Form
-- Footer
-- Modern UI Design
-- Responsive Layout
+- Random Color Changer
+- Greeting Generator based on Current Time
+- Smart Calculator
+- Responsive UI
 
 ## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
+- JavaScript
 
 ## 📂 Project Structure
 
 ```
-Task-1
+Task-2
 │── index.html
 │── style.css
-│── images
-│     └── profile.png
+│── script.js
 └── README.md
 ```
+
+## 📚 JavaScript Concepts Used
+
+- Functions
+- Arrays
+- Events
+- DOM Manipulation
+- Conditional Statements
+- Math.random()
+- Date Object
 
 ## 📸 Screenshot
 
