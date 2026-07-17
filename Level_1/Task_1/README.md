@@ -36,9 +36,6 @@ Task-1
 └── README.md
 ```
 
-## 📸 Screenshot
-
-(Add screenshot here)
 
 ## 👨‍💻 Author
 

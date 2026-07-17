@@ -37,9 +37,7 @@ Task-2
 - Math.random()
 - Date Object
 
-## 📸 Screenshot
 
-(Add screenshot here)
 
 ## 👨‍💻 Author
 
