@@ -1,0 +1,34 @@
+# Node Modules
+node_modules/
+
+# Environment Variables
+.env
+
+# Logs
+*.log
+logs/
+
+# Build Files
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# Cache
+.cache/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Personal Documents
+docs/*.pdf
+
+# Optional
+package-lock.json

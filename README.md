@@ -9,20 +9,28 @@
 
 ---
 
-## 📖 About
+# 📖 About
 
 This repository contains all the projects completed during the **Cognifyz Technologies Web Development Internship**.
 
-The projects demonstrate core web development concepts including HTML, CSS, JavaScript, Bootstrap, responsive web design, and interactive user interfaces.
+The projects demonstrate practical knowledge of:
+
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- Responsive Web Design
+- Interactive User Interfaces
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
 ```text
 Cognifyz-Web-Development-Internship
 │
 ├── assets
+│   └── Project_Demo.mp4
 │
 ├── Level-1
 │   ├── Task-1
@@ -50,8 +58,8 @@ Cognifyz-Web-Development-Internship
 ### Task 1
 - Simple Webpage
 - Navigation Menu
-- Image
 - Contact Form
+- Image Section
 
 ### Task 2
 - Color Changer
@@ -64,32 +72,31 @@ Cognifyz-Web-Development-Internship
 
 ### Task 1
 - Responsive Cards
-- Bootstrap Grid System
+- Bootstrap Grid Layout
 
 ### Task 2
 - Responsive Landing Page
-- CSS Media Queries
-- Mobile Navigation Menu
+- Media Queries
+- Mobile Navigation
 
 ---
 
 ## 📙 Level 3
 
 ### Task 1
-- Responsive Image Gallery
+- Image Gallery
 - Automatic Slideshow
 - Image Preview
 
 ### Task 2
-- Web Developer Internship Landing Page
-- Internship Overview
+- Internship Landing Page
 - Benefits & Qualifications
-- Call-to-Action Section
-- Contact Information
+- Contact Section
+- Call-to-Action
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠 Technologies Used
 
 - HTML5
 - CSS3
@@ -98,38 +105,42 @@ Cognifyz-Web-Development-Internship
 
 ---
 
-## 💻 Getting Started
+# 💻 Getting Started
 
-### Clone the repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/mohit-sharma-001/Cognifyz-Web-Development-Internship.git
 ```
 
-### Open any project
-
-Navigate to the desired task folder and open the `index.html` file in your web browser.
+Open any task folder and run the **index.html** file in your browser.
 
 ---
 
-## 🎯 Learning Outcomes
+# 🎥 Project Demonstration
+
+A complete video demonstration of all internship tasks is available in the **assets** folder.
+
+---
+
+# 🎯 Learning Outcomes
 
 - Semantic HTML
 - Modern CSS
-- Responsive Web Design
+- Responsive Design
 - JavaScript DOM Manipulation
 - Bootstrap Framework
 - Image Gallery Development
-- Landing Page Design
-- Interactive User Interfaces
+- Landing Page Development
+- Interactive Web Applications
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Mohit Sharma**
 
-B.Tech CSE Student
+B.Tech Computer Science Engineering
 
 Web Development Intern @ Cognifyz Technologies
 
@@ -137,9 +148,9 @@ GitHub: https://github.com/mohit-sharma-001
 
 ---
 
-## 📄 License
+# 📄 License
 
-This project is licensed under the **MIT License**. See the `LICENSE` file for more information.
+This project is licensed under the **MIT License**.
 
 ---
 
